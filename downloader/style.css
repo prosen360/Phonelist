@@ -1,0 +1,24 @@
+*{
+	font-family: Arial;
+	background-color:#F2EBE9  ;
+	position: auto;
+}
+
+.intro {
+
+	padding-top: 10em;
+	text-align: center;
+}
+
+.list1{
+	padding-top: 4px;
+	text-align: auto;
+	position: relative;
+}
+
+.phlist1{
+	text-align: bottom;
+	display: flex;
+	text-align: center;
+
+}
