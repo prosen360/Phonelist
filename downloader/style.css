@@ -1,11 +1,9 @@
 *{
 	font-family: Arial;
-	background-color:#F2EBE9  ;
 	position: auto;
 }
 
 .intro {
-
 	padding-top: 10em;
 	text-align: center;
 }
@@ -20,5 +18,45 @@
 	text-align: bottom;
 	display: flex;
 	text-align: center;
+}
 
+/*menu bar css*/
+.menuBar{
+	background-color: #008888;
+	height: 40px;
+}
+.menu{
+	display: inline-block;
+	margin-top: 8px;
+}
+.menu-content{
+	display: none;
+	position: absolute;
+	background-color: transparent;
+  	min-width: 70px;
+	margin-left: -34px;
+	padding-top: 10px;
+}
+.menu-content li{
+	text-align: center;
+	padding-bottom: 2px;
+}
+.menu-name{
+	font-size: 20px;
+	margin-left: -20px;
+}
+.menu:hover .menu-name{
+	color: white;
+	cursor: pointer;
+}
+.menu:hover .menu-content{
+	display: block;
+}
+
+.menu-content li:hover{
+	color: red;
+	cursor: pointer;
+}
+ul{
+	list-style-type: none;
 }
